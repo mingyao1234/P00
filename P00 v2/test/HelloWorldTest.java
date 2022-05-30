@@ -15,12 +15,14 @@ public class HelloWorldTest {
 	}
 
 	@Test
-	public void test() {
+	public final void findMaxTest1() {
 		//fail("Not yet implemented");
-		System.out.println("This is the testcase for HelloWorld");
-		String str1 = "This is the testcase for HelloWorld";
-		String str2 = "This is the testcase for HelloWorld";
-		assertEquals(str1, str2);
+		int[] arrA = {1,3,2,4};
+		assertEquals("test if the biggest integer is  4", 4, HelloWorld.findMax(arrA));
 	}
-
+	@Test
+	public final void findMaxTest2() {
+		int[] arrB = {-11, -3, -1, -2, -4};
+		assertEquals("test if the biggest integer is -1", -1, HelloWorld.findMax(arrB));
+	}
 }
