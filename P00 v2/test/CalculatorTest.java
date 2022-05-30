@@ -85,6 +85,6 @@ public class CalculatorTest {
 		Calculator cal = new Calculator();
 		int actual = cal.divide(a, b);
 		int expected = 3;
-		assertEquals(actual, expected)
+		assertEquals(actual, expected);
 	}
 }
