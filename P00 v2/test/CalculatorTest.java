@@ -79,12 +79,5 @@ public class CalculatorTest {
 		int expected = 12;
 		assertEquals(actual, expected);
 	}
-	public void testDivide() {
-		int a = 6;
-		int b = 2;
-		Calculator cal = new Calculator();
-		int actual = cal.divide(a, b);
-		int expected = 3;
-		assertEquals(actual, expected);
-	}
+	
 }
