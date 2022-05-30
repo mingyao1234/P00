@@ -61,7 +61,7 @@ public class CalculatorTest {
 		int expected = 9999;
 		assertEquals(expected, actual);
 	}
-	public final void testSubtract() {
+	public void testSubtract() {
 		int a = 9876;
 		int b = 4321;
 		
